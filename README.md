@@ -108,7 +108,7 @@ Upon clicking on Allow it will give you the below confirmation message:
 <br><br>
 <img src="./images_readme/10.jpg"  height="550">
 
-Now the app can receive the Pust Notifications like below:
+Now the app can receive the Push Notifications like below:
 <br><br>
 <img src="./images_readme/11.jpg"  height="550">
 
