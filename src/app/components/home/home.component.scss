@@ -1,0 +1,81 @@
+/* all */
+*{
+    margin:auto;
+    padding:0;
+}
+/*Navbar content styling*/
+.navstyle{
+    background-color: green;
+    font-family: monospace;
+    font-size: 25px;
+}
+nav a{
+    padding: 10px 20px;
+    color:white;
+    font-size: 20px;
+}
+nav a:hover{
+    background-color: darkgreen;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 2px;
+}
+#container1{
+    margin-top: 5%;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.btns{
+    margin: 16px 0px;
+    font-size: 20px;
+    color: white;
+    background-color: green;
+    padding: 10px;
+    border: none;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+.cart-btn{
+    margin: 10px 0px;
+    font-size: 15px;
+    color: white;
+    background-color: green;
+    padding: 10px;
+    border: none;
+    float: right;
+}
+.indec{
+    display: flex;
+    justify-content: space-between;
+}
+
+.incdec button{
+    border: none;
+    background-color: green;
+    color: white;
+    border-radius: 3px;
+}
+
+/* mobile screens */
+@media (max-width: 640px) {
+#container1{
+    font-size: large;
+}
+#orderbtn{
+    font-size: 15px;
+    padding: 10px;
+}
+}
+  
+.card{
+    border-color: #adb5bd;
+    width: 90%;
+    margin-bottom: 2%;
+}
+
+.card-body{
+    margin: 3% !important;
+}

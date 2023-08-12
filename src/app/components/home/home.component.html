@@ -1,0 +1,34 @@
+<div class="container-fluid">
+  <nav class="navstyle navbar fixed-top">
+    <a class="navbar-brand" href="/home" style="margin-left: 0%"
+      >Pizza Delivery
+    </a>
+    <!-- <a class="navbar-brand" href="/order">Menu</a> -->
+    <a (click)="subscribeToNotifications()" style="margin-right: 5%"
+      ><i class="fa fa-bell" aria-hidden="true"></i
+    ></a>
+  </nav>
+  <div id="container1">&nbsp;&nbsp;<br />&nbsp;</div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4" *ngFor="let item of pizzaList; let i = index">
+        <div class="card">
+          <img
+            class="card-img-top"
+            src="./../../../assets/pizza{{ (i % 3) + 1 }}.jfif"
+          />
+          <div class="card-body">
+            <h5 class="card-title">{{ item.name }}</h5>
+            <p class="card-text">{{ item.description }}</p>
+            <button class="btn cart-btn"><a>Add to Cart</a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+  </div>
+
+  <nav class="navstyle navbar">
+    <div style="margin-right: 3%; font-size: 50%">V2</div>
+  </nav>
+</div>
