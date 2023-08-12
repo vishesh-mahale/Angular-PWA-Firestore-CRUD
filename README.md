@@ -25,6 +25,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
    The above command will build the application and it will also deploy your application to Firebase.
 
 
+## Demo:
+Angular PWA app is deployed on firebase. 
+https://pwa-app-1234.web.app/
+
 ## NOTE:
 The Server side code(NodeJS, ExpressJS, Firebase cloud messaging, Firestore) for supporting this Angular App is available at  https://github.com/vishesh-mahale/PWA-Firestore-CRUD-NodeJs-ExpressJS. Please refer to the README.md file of the server-side code to access the Rest APIs.
 
