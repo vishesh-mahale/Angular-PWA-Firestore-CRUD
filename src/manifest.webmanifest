@@ -1,6 +1,6 @@
 {
-  "name": "pizza-delivery",
-  "short_name": "pizza-delivery",
+  "name": "Pizza Delivery",
+  "short_name": "Pizza Delivery",
   "theme_color": "#1976d2",
   "background_color": "#fafafa",
   "display": "standalone",

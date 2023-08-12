@@ -32,3 +32,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
     // "rxjs": "~7.8.0",
     // "tslib": "^2.3.0",
     // "zone.js": "~0.13.0"
+
+## For generating manifest file and icons
+
+https://manifest-gen.netlify.app/
