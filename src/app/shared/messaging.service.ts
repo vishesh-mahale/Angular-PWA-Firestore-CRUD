@@ -19,8 +19,11 @@ export class MessagingService {
     this.afm.requestToken.subscribe(
       (token) => {
         console.log(token);
-        this.updateToken(token, name);
-        alert('Thank you for subscribing to the notification.');
+        if (token) {
+          this.updateToken(token, name);
+        } else {
+          alert('Notification has been unsubscribe.');
+        }
       },
       (err) => {
         console.log('Unable to get user permission', err);
@@ -32,6 +35,7 @@ export class MessagingService {
     this.afa.authState.subscribe(() => {
       let data = { user: user, token: token };
       this.afs.collection('tokens/').add(data);
+      alert('Thank you for subscribing to the notification.');
     });
   }
 
